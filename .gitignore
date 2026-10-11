@@ -1,0 +1,16 @@
+*.jar
+*.jmod
+*.db
+*.sqlite*
+*.pem
+*.p12
+*.pfx
+*.key
+*mapping*
+*secrets*
+*credentials*
+config/
+world/
+run/
+build/
+
