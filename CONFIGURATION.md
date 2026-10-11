@@ -15,7 +15,18 @@ This is a source-derived index for the version snapshot **2.0.0-beta25**. It lis
 
 ## Detected keys / Claves detectadas
 
-No literal ForgeConfigSpec keys were detected in this module. Inspect the generated TOML comments and version-specific guide before changing settings.
+This module generates TOML templates directly rather than using literal ForgeConfigSpec keys for most settings. The beta25 dedicated-server startup generated the files below under `config/ZONEMODS/zonelevelup/`:
+
+| Files / Archivos | What they control / Qué controlan |
+|---|---|
+| `general.toml`, `mobs.toml`, `mobs-dificultad.toml`, `dimensiones.toml`, `drops.toml` | XP, mob difficulty, dimension gates and drop rules / XP, dificultad, dimensiones y botín. |
+| `clases.toml`, `razas.toml`, `combate-razas.toml`, `ascension-razas.toml` | Class and race progression, combat and racial ascension / clases, razas, combate y ascensión. |
+| `talentos.toml`, `habilidades-comprables.toml`, `habilidades-razas.toml`, `artefactos.toml` | Talents, purchasable and racial abilities, artifacts / talentos, habilidades y artefactos. |
+| `party.toml`, `misiones-party.toml`, `misiones-especiales.toml`, `contratos.toml`, `contratos-expediciones.toml` | Party play, missions and contracts / grupos, misiones y contratos. |
+| `jefes/jefes.toml`, `jefes/arenas.toml`, `jefes/botin.toml`, `jefes/pasivas-extra.toml` | Bosses, arenas, loot and passives / jefes, arenas, botín y pasivas. |
+| `compatibilidad.toml`, `simplyswords.toml`, `progresion-modpack.toml`, `contratos-modpack.toml` | Optional mod integrations and modpack progression / compatibilidad y progresión del modpack. |
+
+Back up these files before upgrades. Read each generated file's comments and keep IDs and ranges valid. The `/zonelevelup reload` command exists, but test a change on a copy before applying it to a persistent world. Player/world data is separate from the TOML templates.
 
 The final public guide must be checked against the final JAR and generated TOML. / La guía pública final debe contrastarse con el JAR definitivo y el TOML generado.
 
