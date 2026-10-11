@@ -2,11 +2,11 @@
 
 ## English
 
-RPG levels, classes, races, talents, missions and encounters. Minecraft 1.20.1 / Forge 47.x. The current line is beta; keep it separate from stable releases.
+RPG levels, classes, races, talents, party missions and bosses. Minecraft 1.20.1 / Forge 47.x. Current protected universal release: **2.0.0-beta25** for client and server. Keep it separate from stable 1.5.0-r2.
 
 ### Installation
 
-Install the release JAR on every side required by its file metadata. Do not install development or test JARs. Required mod dependencies shown by current source metadata: **ZoneCore**. Check the dependency version range of the exact uploaded file before installation.
+Install the same universal release JAR on client and server. Do not install development or test JARs. The server requires **ZoneCore 2.1.2+**. This beta was built and started with protected Core 2.1.3. Optional integrations with Iron's Spellbooks, Vampirism, Simply Swords, ZoneCrates and ZoneProtes need their own matching installations.
 
 ### Configuration
 
@@ -27,11 +27,11 @@ See [configuration reference](CONFIGURATION.md) for keys detected in source and 
 
 ## Español
 
-Niveles RPG, clases, razas, talentos, misiones y encuentros. Minecraft 1.20.1 / Forge 47.x. La línea actual es beta; mantenla separada de las entregas estables.
+Niveles RPG, clases, razas, talentos, misiones de equipo y jefes. Minecraft 1.20.1 / Forge 47.x. Entrega universal protegida actual: **2.0.0-beta25** para cliente y servidor. Mantenla separada de estable 1.5.0-r2.
 
 ### Instalación
 
-Instala el JAR de entrega en los lados indicados por sus metadatos. No instales JAR de desarrollo ni de pruebas. Dependencias obligatorias indicadas por los metadatos actuales: **ZoneCore**. Comprueba el rango de versión del archivo exacto que instales.
+Instala el mismo JAR universal en cliente y servidor. No instales JAR de desarrollo ni de pruebas. El servidor requiere **ZoneCore 2.1.2+**. Esta beta se compiló y arrancó con Core 2.1.3 protegido. Las integraciones opcionales con Iron's Spellbooks, Vampirism, Simply Swords, ZoneCrates y ZoneProtes requieren sus propias instalaciones compatibles.
 
 ### Configuración
 
