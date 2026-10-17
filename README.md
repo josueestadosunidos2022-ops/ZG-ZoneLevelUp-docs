@@ -1,8 +1,14 @@
 # ZG ZoneLevelUp
 
+## Update / Actualización — 2026-10-17
+
+Selected version / Versión seleccionada: **universal 2.0.0-beta29-r10**. New file availability depends on CurseForge approval / La disponibilidad de los archivos nuevos depende de su aprobación en CurseForge.
+
+See [changes, exact files and installation](UPDATES-2026-10-17.md) / Consulta [cambios, archivos e instalación](UPDATES-2026-10-17.md). Preserve the world and TOML files / Conserva mundo y TOML.
+
 ## English
 
-RPG levels, classes, races, talents, party missions and bosses. Minecraft 1.20.1 / Forge 47.x. Current protected universal release: **2.0.0-beta25** for client and server. Keep it separate from stable 1.5.0-r2.
+RPG levels, classes, races, talents, party missions and bosses. Minecraft 1.20.1 / Forge 47.x. Current protected universal release: **2.0.0-beta29-r10** for client and server. Keep it separate from stable 1.5.0-r2.
 
 ### Installation
 
@@ -27,7 +33,7 @@ See [configuration reference](CONFIGURATION.md) for keys detected in source and 
 
 ## Español
 
-Niveles RPG, clases, razas, talentos, misiones de equipo y jefes. Minecraft 1.20.1 / Forge 47.x. Entrega universal protegida actual: **2.0.0-beta25** para cliente y servidor. Mantenla separada de estable 1.5.0-r2.
+Niveles RPG, clases, razas, talentos, misiones de equipo y jefes. Minecraft 1.20.1 / Forge 47.x. Entrega universal protegida actual: **2.0.0-beta29-r10** para cliente y servidor. Mantenla separada de estable 1.5.0-r2.
 
 ### Instalación
 
