@@ -1,4 +1,4 @@
-# ZG ZoneLevelUp
+# ZoneLevelUp
 
 ## Update / Actualización — 2026-10-17
 
