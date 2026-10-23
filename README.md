@@ -1,5 +1,28 @@
 # ZoneLevelUp
 
+## Current update / Actualización actual — 2026-10-23
+
+Protected public builds prepared for Minecraft 1.20.1 / Forge 47.4.x / Java 17. Files become available after CurseForge approval. / Compilaciones públicas protegidas; los archivos estarán disponibles cuando CurseForge los apruebe.
+
+Operational beta29-r28: combat-balance TOML, character mastery, rune codex discoveries, weekly expedition routes, configurable client HUD and a ritual boss template. Includes the earlier rune fusions and Spanish dialogue audio. Main protocol 42 / story protocol 3: replace BOTH sides with r28. Dedicated servers need ZoneCore 2.1.4+.
+
+| Side / Lado | Version / Versión | File / Archivo |
+|---|---|---|
+| server | 2.0.0-beta29-r28 | `zonelevelup-2.0.0-beta29-r28-server-protected.jar` |
+| client | 2.0.0-beta29-r28 | `zonelevelup-2.0.0-beta29-r28-client-protected.jar` |
+
+Install only the JAR for each side; never put both side JARs in one mods folder. Back up the world and preserve existing player data and TOML files. / Instala solo el JAR correspondiente a cada lado; conserva mundo, progreso y TOML existentes.
+
+**server dependencies / dependencias:** ZoneCore: Required Dependency ([2.1.4,3)); ZoneCrates: Optional Dependency (server wallet integration).
+
+**client dependencies / dependencias:** ZoneCrates: Optional Dependency (server wallet integration).
+
+Archive checks and isolated dedicated-server startup do not certify graphical gameplay, real multiplayer or the full modpack. / Las verificaciones de archivo y arranque aislado no certifican cliente gráfico, multijugador real ni modpack completo.
+
+## Earlier reference / Referencia anterior
+
+The following reference predates this update. Use the current versions and side instructions above when they differ. / La referencia siguiente es anterior; prevalecen las versiones y las indicaciones de lado de esta actualización.
+
 ## Update / Actualización — 2026-10-17
 
 Selected version / Versión seleccionada: **universal 2.0.0-beta29-r10**. New file availability depends on CurseForge approval / La disponibilidad de los archivos nuevos depende de su aprobación en CurseForge.
@@ -59,4 +82,3 @@ Consulta la [referencia de configuración](CONFIGURATION.md) para claves detecta
 ## Ownership / Titularidad
 
 Documentation and original ZONE visual assets © Elgochogms. This repository contains documentation and a project avatar only; it does not distribute mod source code, private mappings, server secrets or production configuration.
-
