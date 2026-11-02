@@ -1,18 +1,21 @@
-# ZoneLevelUp 2.0.0-beta29-r47
+# ZoneLevelUp 2.0.0-beta29-r50
 
 ## English
 
-RPG levels, characters, races, classes, professions, quests, achievements and expeditions. Open the Atlas with K, resolve key conflicts under Controls, review character choices and complete server-defined quests. Beta29-r47 incorporates current progression work and fixes expedition wave counts, spawn retries, arena block protection and fire protection during active sessions. Keep mobs_por_oleada <= maximo_mobs_vivos in config/ZONEMODS/zonelevelup/Expedicion/expediciones.toml. Client and server must both use r47.
+RPG characters, classes, professions, quests, achievements and expeditions. Cumulative r48-r50 adds per-character rebirth, safer purchases/pending deliveries, global Atlas/store search and queued progression celebrations. GODIELAND: El Pacto del Alba has 24 chapters unlocked by validated rebirths and per-character replay history. Press K > HERO > GODIELAND, or /zcine. Server TOML controls rules and timing; client settings include reduced motion and narration volume.
+
+Includes 72 offline Spanish narration clips synthesized with Piper es_MX-claude-high, not a human recording. Skip, close, damage or dimension change stops narration and returns control. Celebrations grant no extra rewards. Client and server MUST both use beta29-r50: protocol 54 / Journey1. Do not mix r47, other revisions or beta30.
 
 ## Español
 
-Progresión RPG, personajes, razas, clases, profesiones, misiones, logros y expediciones. Abre el Atlas con K y resuelve conflictos en Controles; revisa las opciones del personaje y completa misiones del servidor. Beta29-r47 incorpora el trabajo actual de progresión y corrige cantidades/reintentos de oleadas y protección de bloques/fuego durante expediciones. En expediciones.toml, mobs_por_oleada debe ser menor o igual que maximo_mobs_vivos. Usa r47 en cliente y servidor.
+Personajes RPG, clases, profesiones, misiones, logros y expediciones. R48-r50 incorpora renacer por personaje, compras/entregas pendientes más seguras, búsqueda global y celebraciones con cola limitada. GODIELAND: El Pacto del Alba tiene 24 capítulos desbloqueados mediante renaceres válidos e historial por personaje. Pulsa K > HÉROE > GODIELAND, o /zcine. Las reglas dependen de TOML del servidor; el cliente permite movimiento reducido y volumen del narrador.
 
+Incluye 72 clips locales de narración española sintetizada con Piper es_MX-claude-high. No es voz humana. Omitir, cerrar, recibir daño o cambiar de dimensión detiene la voz y devuelve el control. Las celebraciones no conceden premios extra. Cliente y servidor deben usar beta29-r50, protocolo 54 / Journey1; no mezclar con r47, otras revisiones ni beta30.
 
 | Side / Lado | Version | File |
 |---|---|---|
-| server | 2.0.0-beta29-r47 | `zonelevelup-2.0.0-beta29-r47-server-protected.jar` |
-| client | 2.0.0-beta29-r47 | `zonelevelup-2.0.0-beta29-r47-client-protected.jar` |
+| server | 2.0.0-beta29-r50 | `zonelevelup-2.0.0-beta29-r50-server-protected.jar` |
+| client | 2.0.0-beta29-r50 | `zonelevelup-2.0.0-beta29-r50-client-protected.jar` |
 
 ## Dependencies / Dependencias
 
