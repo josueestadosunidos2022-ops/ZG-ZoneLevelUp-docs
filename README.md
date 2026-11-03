@@ -1,17 +1,15 @@
 # ZoneLevelUp
 
-## Current builds / Versiones actuales — 2026-11-03
+## Current builds / Versiones actuales — 2026-11-03 revision 2
 
-| Side / Lado | Version / Versión | CurseForge |
+| Side / Lado | Version | CurseForge |
 |---|---|---|
-| ZoneLevelUp server | 2.0.0-beta29-r52 | [Files / Archivos](https://www.curseforge.com/minecraft/mc-mods/zonelevelup/files/9426597) |
-| ZoneLevelUp client | 2.0.0-beta29-r52 | [Files / Archivos](https://www.curseforge.com/minecraft/mc-mods/zonelevelup/files) |
+| Server | 2.0.0-beta29-r53 | [Server](https://www.curseforge.com/minecraft/mc-mods/zonelevelup/files/9427333) |
+| Client | 2.0.0-beta29-r53 | [Client](https://www.curseforge.com/minecraft/mc-mods/zonelevelup/files/9427346) |
 
-Use r52 on BOTH sides, protocol 56. Do not mix r50/r51/beta30. / Usa r52 en AMBOS lados, protocolo 56. No mezcles r50/r51/beta30.
+Use r53 on BOTH sides, protocol 56 / MATCH_VERSION. Dungeons beta9 uses its public party-members API. / Usa r53 en AMBOS lados; Dungeons beta9 usa la API pública de miembros de grupo.
 
-[Changes, installation and compatibility / Cambios, instalación y compatibilidad](RELEASE-2026-11-03.md).
-
-Public protected Beta builds. A submitted file becomes downloadable only after CurseForge approval. / Betas públicas protegidas: cada archivo queda descargable cuando CurseForge lo aprueba.
+[Release notes / Cambios e instalación](RELEASE-2026-11-03-r2.md). Beta availability depends on file approval. / Disponibilidad sujeta a aprobación del archivo.
 
 ## Earlier documentation / Documentación anterior
 
