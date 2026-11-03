@@ -1,4 +1,21 @@
-# ZoneLevelUp 2.0.0-beta29-r50
+# ZoneLevelUp
+
+## Current builds / Versiones actuales — 2026-11-03
+
+| Side / Lado | Version / Versión | CurseForge |
+|---|---|---|
+| ZoneLevelUp server | 2.0.0-beta29-r52 | [Files / Archivos](https://www.curseforge.com/minecraft/mc-mods/zonelevelup/files/9426597) |
+| ZoneLevelUp client | 2.0.0-beta29-r52 | [Files / Archivos](https://www.curseforge.com/minecraft/mc-mods/zonelevelup/files) |
+
+Use r52 on BOTH sides, protocol 56. Do not mix r50/r51/beta30. / Usa r52 en AMBOS lados, protocolo 56. No mezcles r50/r51/beta30.
+
+[Changes, installation and compatibility / Cambios, instalación y compatibilidad](RELEASE-2026-11-03.md).
+
+Public protected Beta builds. A submitted file becomes downloadable only after CurseForge approval. / Betas públicas protegidas: cada archivo queda descargable cuando CurseForge lo aprueba.
+
+## Earlier documentation / Documentación anterior
+
+The version and side table above takes precedence over historical versions below. / La tabla anterior prevalece sobre versiones históricas de la documentación siguiente.
 
 ## English
 
