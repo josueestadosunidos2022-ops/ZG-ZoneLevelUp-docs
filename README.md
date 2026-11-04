@@ -1,5 +1,21 @@
 # ZoneLevelUp
 
+## Current build / Versión actual — 2026-11-03 revision 3
+
+2.0.0-beta29-r54
+
+[Server](https://www.curseforge.com/minecraft/mc-mods/zonelevelup/files/9430617) · [Client](https://www.curseforge.com/minecraft/mc-mods/zonelevelup/files/9430602)
+
+Use r54 on BOTH sides: main protocol 57 / Guilds 1 / Journey 1. Guilds are account-based, promotion progress is per character. Dungeons beta9 remains compatible. / Usa r54 en AMBOS lados, protocolo 57, Gremios1 y Journey1; los rangos son individuales por personaje.
+
+[English / Español installation and changes](RELEASE-2026-11-03-r3.md). Availability follows each file approval. / Disponibilidad según aprobación del archivo.
+
+## Historical documentation / Documentación histórica
+
+Versions below are earlier releases; the current build above takes precedence. / Las versiones siguientes son anteriores; prevalece la versión actual de arriba.
+
+# ZoneLevelUp
+
 ## Current builds / Versiones actuales — 2026-11-03 revision 2
 
 | Side / Lado | Version | CurseForge |
