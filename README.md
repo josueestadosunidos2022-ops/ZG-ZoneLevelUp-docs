@@ -1,56 +1,51 @@
 # ZoneLevelUp
 
-RPG progression, character identity, guilds and a customizable HUD. r55 adds rank benefits and an account-wide portrait collection.
+RPG progression, races/classes, guilds, expeditions and character identity. r58 adds a new narrated rebirth chronicle and retains the recent class-awakening and expedition-continuity improvements.
 
-Progresión RPG, identidad, gremios y HUD personalizable. r55 añade beneficios de rango y colección de retratos compartida por cuenta.
+Progresión RPG, razas/clases, gremios, expediciones e identidad. r58 añade crónica narrada de renacer y conserva mejoras recientes de despertar de clases y continuidad de expediciones.
 
-## Current release / Entrega actual — 2026-11-06
-
-Minecraft **1.20.1**, Forge **47.x** (47.4.x for this release set), Java **17**. File availability follows CurseForge approval. / Disponibilidad de archivos según aprobación de CurseForge.
+## Current release / Entrega actual — 2026-11-08
 
 | Side / Lado | Version / Versión |
 |---|---|
-| Server / Servidor | 2.0.0-beta29-r55 |
-| Client / Cliente | 2.0.0-beta29-r55 |
+| Server / Servidor | 2.0.0-beta29-r58 |
+| Client / Cliente | 2.0.0-beta29-r58 |
 
-**Protocol / Protocolo:** LevelUp 58 / Identity 1 / Guilds 1 / Journey 1.
+**Protocol / Protocolo:** Main 60 / Celebrations 1; update both sides / Principal 60 / Celebraciones 1; actualizar ambos lados.
 
-[Downloads / Descargas](https://www.curseforge.com/projects/1738050/files) · [Release guide / Guía de novedades](RELEASE-2026-11-06.md) · [Configuration / Configuración](CONFIGURATION.md)
+[Downloads / Descargas](https://www.curseforge.com/projects/1738050/files) · [Release / Novedades](RELEASE-2026-11-08.md) · [Configuration / Configuración](CONFIGURATION.md)
 
-## English — Requirements and quick start
+## English
 
-Install r55 on BOTH sides; no r54. Server: ZoneCore 2.1.4–2.x. Optional: Ranks server 3.3.13 for automatic benefits (existing client 3.3.6 remains compatible if used), Crates for purchases and Iron’s Spellbooks for magic. Retain compatible Economy beta8 if installed.
+Minecraft 1.20.1, Java 17; Forge 47.4.10+ when paired with Dungeons beta10. Install the exact r58 pair: do not mix r57 despite its same main protocol, or older r55/r56. Server requires Core 2.1.4–2.x. Ranks, Crates and Iron’s Spellbooks provide optional integrations. The default final awakening tier needs Dungeons beta10, or its dungeon-count requirement must be disabled.
 
-Open HÉROE → IDENTIDAD → RETRATOS or BONOS ACTIVOS. Administrators configure the two TOML files and apply `/zlevel bonus recargar`. Automatic benefits start at zero; normal players cannot grant themselves bonuses.
+r58 adds 24 rebirth chapters with 72 Spanish narrated acts, three original instrumental themes and synchronized 3D scenes. Music ducks during narration; existing unlocks and character progress remain. It includes three class-awakening tiers, same-session expedition respawn/reconnection, `/zsalir`, and inactive default loot sections for valid custom bosses. Use HÉROE→GODIELAND or `/zcine` for unlocked chapters, and RAZAS→CLASES→DESPERTAR for awakening. Install both r58 sides, main protocol 60/celebrations 1; server Core 2.1.4–2.x remains required. Dungeons beta10 works with this release. Audio plays from packaged local assets; no online narration service is needed. Laboratory rendering/audio checks do not certify full-modpack multiplayer gameplay.
 
-### What changed
+Open HÉROE → GODIELAND to replay unlocked chapters. `/zcine` opens the section; existing administrative previews can inspect a chapter. Class awakening is under RAZAS → CLASES → DESPERTAR. Keep player/world data and current TOML.
 
-- Configurable current-rank benefits, persistent manual bonuses and one-time gifts with account/rank/version receipts.
-- Thirty original portraits: 24 normal and six legendary, with shared ownership, purchase confirmation and client-animated legendary effects.
-- Identity screens explain active bonuses; the midnight-blue, purple and cyan HUD shows portrait, level, server rank and benefit glyphs.
+## Español
 
-## Español — Requisitos e inicio
+Minecraft 1.20.1, Java 17; Forge 47.4.10+ con Dungeons beta10. Instala pareja r58 exacta: no mezcles r57 aunque comparta protocolo principal, ni r55/r56. Servidor requiere Core 2.1.4–2.x. Ranks, Crates e Iron’s Spellbooks aportan integraciones opcionales. Último despertar predeterminado necesita Dungeons beta10 o desactivar su requisito de mazmorras.
 
-Instala r55 en AMBOS lados; no r54. Servidor: ZoneCore 2.1.4–2.x. Opcionales: Ranks servidor 3.3.13 para bonos automáticos (cliente 3.3.6 compatible si se usa), Crates para compras e Iron’s Spellbooks para magia. Conserva Economy beta8 compatible si está instalado.
+r58 añade 24 capítulos de renacer con 72 actos narrados en español, tres temas originales y escenas 3D sincronizadas. La música baja durante la voz; conserva desbloqueos/progreso. Incluye tres rangos de despertar, reaparición/reconexión en la misma expedición, `/zsalir` y secciones inactivas de botín para jefes válidos. HÉROE→GODIELAND o `/zcine` abre capítulos liberados; RAZAS→CLASES→DESPERTAR muestra ascensos. Instala ambos r58, protocolo 60/celebraciones 1 y Core 2.1.4–2.x solo servidor. Compatible con Dungeons beta10. Audio local incluido, sin servicio de narración online. Pruebas de render/audio de laboratorio no certifican gameplay multijugador del pack.
 
-Abre HÉROE → IDENTIDAD → RETRATOS o BONOS ACTIVOS. Administración configura ambos TOML y aplica `/zlevel bonus recargar`. Los bonos automáticos empiezan en cero; un jugador normal no puede concedérselos.
-
-### Novedades
-
-- Beneficios configurables del rango actual, bonos manuales persistentes y regalos únicos con recibos por cuenta/rango/versión.
-- Treinta retratos originales: 24 normales y seis legendarios, propiedad compartida, confirmación de compra y efectos legendarios animados en cliente.
-- Identidad explica bonos activos; el HUD azul oscuro, morado y celeste muestra retrato, nivel, rango e iconos de beneficios.
+Abre HÉROE → GODIELAND para capítulos liberados. `/zcine` abre el apartado; previsualización administrativa permite revisar uno. Despertar está en RAZAS → CLASES → DESPERTAR. Conserva datos y TOML.
 
 ## Updating / Actualizar
 
-Stop the affected instance, back up world/configuration, replace only the previous same-mod/same-side JAR and retain player data. Never install the dedicated and client JARs of one mod together. / Detén la instancia correspondiente, respalda mundo/configuración y sustituye solo el JAR del mismo mod y lado conservando datos. Nunca instales juntos los JAR dedicado y cliente del mismo mod.
+Stop the affected instance, back up world/configuration and replace only the previous same-mod/same-side JAR. Keep one JAR per mod per instance and preserve player data. / Detén la instancia correspondiente, respalda mundo/configuración y sustituye solo el JAR del mismo mod y lado. Conserva un JAR por mod e instancia y los datos de jugador.
 
 ## Validation scope / Alcance de verificación
 
-The delivery records 44 isolated server checks, 73 guild regressions and 26 real-render laboratory screenshots. Rank API preservation was inspected. Full modpack gameplay, Iron’s Spellbooks runtime and production FPS/TPS remain unverified.
+r58 includes code/timeline checks, 17 controlled real-render screenshots and 399 audio-engine checks without opening a gameplay world. Earlier r57 evidence covers 177 encounter/awakening checks and separate Corail interaction checks. These do not certify full-modpack multiplayer, combat interruption in a real session, production FPS/TPS or complete subjective audio listening.
 
-La entrega registra 44 comprobaciones de servidor aislado, 73 regresiones de gremios y 26 capturas de render real con datos de laboratorio. API de rangos inspeccionada. No verifica modpack completo, Iron’s Spellbooks en ejecución ni FPS/TPS de producción.
+r58 incluye pruebas de código/tiempos, 17 capturas reales controladas y 399 comprobaciones de audio sin abrir mundo de gameplay. r57 aporta 177 pruebas de encuentros/despertar e interacción Corail aparte. No certifican modpack multijugador, interrupción en combate real, FPS/TPS ni escucha subjetiva completa.
 
 ## Rights / Derechos
 
-Original ZONE code and assets © Elgochogms; existing licenses and third-party notices remain applicable. This repository provides public documentation. / Código y recursos originales ZONE © Elgochogms; se conservan licencias y avisos de terceros. Este repositorio contiene documentación pública.
+Original ZONE code/assets © Elgochogms; existing third-party licenses and notices remain applicable. Public documentation repository. / Código y recursos originales ZONE © Elgochogms; se conservan licencias y avisos de terceros. Repositorio de documentación pública.
+
+
+## Previous documentation / Documentación anterior
+
+[2026-11-06 release / Entrega 2026-11-06](RELEASE-2026-11-06.md). Version examples in historical releases remain historical. / Los ejemplos de versiones de entregas anteriores son históricos.
