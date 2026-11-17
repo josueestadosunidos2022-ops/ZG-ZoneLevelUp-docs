@@ -1,5 +1,14 @@
 # ZoneLevelUp
 
+
+## Latest update / Última actualización — 2.0.0-beta29-r75
+
+Clasificación semanal y premios de gremios, nueva progresión de atributos, habilidades dracónicas y talentos de combate y recolección. El top semanal se abre desde el directorio de gremios.
+
+Weekly guild standings and rewards, updated attribute progression, Dragonkin abilities, and new combat and gathering talents. Guild standings are available from the guild directory.
+
+[Release notes / Notas de versión](RELEASE-2026-11-17.md)
+
 RPG progression, races/classes, guilds, expeditions and character identity. r58 adds a new narrated rebirth chronicle and retains the recent class-awakening and expedition-continuity improvements.
 
 Progresión RPG, razas/clases, gremios, expediciones e identidad. r58 añade crónica narrada de renacer y conserva mejoras recientes de despertar de clases y continuidad de expediciones.
