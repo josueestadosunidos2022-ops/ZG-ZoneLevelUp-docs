@@ -1,6 +1,16 @@
 # ZoneLevelUp
 
-## 2.0.0-beta29-r75 · Forge 1.20.1 · Java 17
+## 2.0.0-beta29-r76 · Corrección de Ambidiestro / Ambidextrous fix
+
+El botón **+1** del Atlas compra el rango de Ambidiestro. La tecla de arma secundaria intenta el ataque. Actualiza cliente y servidor juntos al protocolo 77.
+
+The Atlas **+1** button buys the Ambidextrous rank. The offhand key attempts an attack. Update client and server together to protocol 77.
+
+- [Cliente / Client](https://www.curseforge.com/minecraft/mc-mods/zonelevelup/files/9671991)
+- [Servidor / Server](https://www.curseforge.com/minecraft/mc-mods/zonelevelup/files/9672005)
+- [Notas e instalación / Release notes and installation](RELEASE-2026-11-17-r76.md)
+
+## Versión anterior / Previous release · 2.0.0-beta29-r75 · Forge 1.20.1 · Java 17
 
 ### Español
 
@@ -14,7 +24,7 @@ Weekly guild standings and rewards, updated attribute progression, Dragonkin abi
 
 Install the exact r75 pair (protocol 76), with ZoneCore 2.1.4–2.x on the dedicated server. Compatible with ZGrimory beta5 and ZoneDungeons beta14.
 
-## Archivos de esta versión / Files for this version
+## Archivos r75 / r75 files
 
 - [Servidor / Server](https://www.curseforge.com/minecraft/mc-mods/zonelevelup/files/9671051)
 - [Cliente / Client](https://www.curseforge.com/minecraft/mc-mods/zonelevelup/files/9671064)
