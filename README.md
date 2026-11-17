@@ -1,7 +1,30 @@
 # ZoneLevelUp
 
+## 2.0.0-beta29-r75 · Forge 1.20.1 · Java 17
 
-## Latest update / Última actualización — 2.0.0-beta29-r75
+### Español
+
+Clasificación semanal y premios de gremios, nueva progresión de atributos, habilidades dracónicas y talentos de combate y recolección. El top semanal se abre desde el directorio de gremios.
+
+Instala la pareja exacta r75 (protocolo 76), con ZoneCore 2.1.4–2.x en servidor. Compatible con ZGrimory beta5 y ZoneDungeons beta14.
+
+### English
+
+Weekly guild standings and rewards, updated attribute progression, Dragonkin abilities, and new combat and gathering talents. Guild standings are available from the guild directory.
+
+Install the exact r75 pair (protocol 76), with ZoneCore 2.1.4–2.x on the dedicated server. Compatible with ZGrimory beta5 and ZoneDungeons beta14.
+
+## Archivos de esta versión / Files for this version
+
+- [Servidor / Server](https://www.curseforge.com/minecraft/mc-mods/zonelevelup/files/9671051)
+- [Cliente / Client](https://www.curseforge.com/minecraft/mc-mods/zonelevelup/files/9671064)
+
+[Notas de versión / Release notes](RELEASE-2026-11-17.md)
+
+<details>
+<summary>Documentación de versiones anteriores / Earlier release documentation</summary>
+
+## Historical notes · Latest update / Última actualización — 2.0.0-beta29-r75
 
 Clasificación semanal y premios de gremios, nueva progresión de atributos, habilidades dracónicas y talentos de combate y recolección. El top semanal se abre desde el directorio de gremios.
 
@@ -13,7 +36,7 @@ RPG progression, races/classes, guilds, expeditions and character identity. r58 
 
 Progresión RPG, razas/clases, gremios, expediciones e identidad. r58 añade crónica narrada de renacer y conserva mejoras recientes de despertar de clases y continuidad de expediciones.
 
-## Current release / Entrega actual — 2026-11-08
+## Historical notes · Current release / Entrega actual — 2026-11-08
 
 | Side / Lado | Version / Versión |
 |---|---|
@@ -58,3 +81,5 @@ Original ZONE code/assets © Elgochogms; existing third-party licenses and notic
 ## Previous documentation / Documentación anterior
 
 [2026-11-06 release / Entrega 2026-11-06](RELEASE-2026-11-06.md). Version examples in historical releases remain historical. / Los ejemplos de versiones de entregas anteriores son históricos.
+
+</details>
