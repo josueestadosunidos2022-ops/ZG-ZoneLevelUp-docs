@@ -1,5 +1,19 @@
 # ZoneLevelUp
 
+## 2.0.0-beta29-r104
+
+### English
+
+Install the matching r104 Client and Server files. ZoneCore is required on the server. **Before first start of an existing world, back up the world and config and keep `config/ZONEMODS/zonelevelup/PERSONAJES CREADOS` present.** If it is missing, the dedicated server backs up and resets saved personal ZoneLevelUp progression for every player, including offline players. Inventories and unrelated mod data are preserved. Retain the automatic backup to recover from an unintended reset.
+
+### Español
+
+Instala los archivos cliente y servidor r104. ZoneCore es obligatorio en el servidor. **Antes del primer arranque de un mundo existente, respalda el mundo y la configuración y conserva `config/ZONEMODS/zonelevelup/PERSONAJES CREADOS`.** Si falta esa carpeta, el servidor dedicado respalda y reinicia la progresión personal guardada de ZoneLevelUp de todos los jugadores, incluidos los desconectados. Los inventarios y datos ajenos al mod se conservan. Guarda el respaldo automático para poder recuperar un reinicio involuntario.
+
+[CurseForge](https://www.curseforge.com/minecraft/mc-mods/zonelevelup)
+
+## Earlier documentation / Documentación anterior
+
 ## 2.0.0-beta29-r89 · Profesiones y vínculo / Professions and marriage integration
 
 ### Español
